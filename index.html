@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap"
       rel="stylesheet"
     /> -->
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./scss/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -29,14 +29,17 @@
               <li><a class="link" href="#contact-section">Контакти</a></li>
             </ul>
           </nav>
-          <button class="header_button button modal-btn-open" type="submit">
+          <button class="header__button button modal-btn-open" type="submit">
             Замовити дзвінок
           </button>
-          <button class="header__burger" type="button">
-             <svg  width="24" height="24">
-                    <use href="./images/icons.svg#icon-button"></use>
-                  </svg>
+          <button class="header__burger menu-btn-open" type="button">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-button"></use>
+            </svg>
           </button>
+          <div class="mobile-menu ">
+            <button class="menu-btn-close" type="button">Close</button>
+          </div>
         </div>
       </div>
     </header>
@@ -48,7 +51,8 @@
           </h1>
         </div>
       </section>
-      <section class="advantages-section">
+    </main>
+    <!-- <section class="advantages-section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="advantages-section__list">
@@ -293,7 +297,7 @@
           </div>
         </div>
       </section>
-    </main>
+    </main> 
     <footer class="footer">
       <div class="container">
         <div class="footer-container">
@@ -353,7 +357,7 @@
           </address>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <div class="backdrop is-hidden">
       <div class="modal">
         <button class="modal__btn-close modal-btn-close" type="button">
@@ -417,6 +421,7 @@
       </div>
     </div>
 
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
