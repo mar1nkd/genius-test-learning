@@ -1,0 +1,39 @@
+@import './utils/fonts';
+@import './utils/variables';
+
+
+@import './base';
+@import './utils';
+@import './utils/text';
+.section {
+    padding: 48px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+
+@import './components/link';
+@import './components/buttons';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/advantage-section';
+@import './components/title';
+@import './layouts/traditions-section';
+@import './layouts/chefs-section';
+@import './layouts/formats-section';
+@import './components/carousel';
+@import './layouts/contacts-section';
+@import './layouts/footer';
+@import './layouts/modal';
+
+@import './layouts/section';
+@import './components/chef-card';
+@import './components/formats-card';
+@import './layouts/form-terms';
+
+@import './components/input';
