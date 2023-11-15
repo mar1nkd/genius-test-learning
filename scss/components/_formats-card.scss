@@ -1,21 +1,23 @@
 .format-card {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    position: relative;
     height: 444px;
     padding: 24px;
     background-image: linear-gradient(180deg,
-            rgba(49, 38, 26, 0) 55.21%,
-            rgba(49, 38, 26, 0.71) 72.92%,
-            var(--color-primary-dark) 100%);
-    border: 1px solid lightgrey;
+        rgba(49, 38, 26, 0) 55.21%,
+        rgba(49, 38, 26, 0.71) 72.92%,
+        var(--color-primary-dark) 100%);
     border-radius: 16px;
-    transition: transform 0.3s;
+    // transition: transform 0.3s;
+    overflow: hidden;
 
-    &:hover {
-    transform: scale(1.05);
-}
+//     &:hover {
+//     transform: scale(1.05);
+// }
+
+   
 
     &__image {
     position: absolute;

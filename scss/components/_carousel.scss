@@ -1,5 +1,5 @@
 .carousel-button {
-    display: flex;
+    // display: flex;
     align-items: center;
     justify-content: center;
     width: 44px;
@@ -11,13 +11,16 @@
     border: 1px solid var(--color-primary-dark);
     cursor: pointer;
     flex-shrink: 0;
-}
 
-.carousel-button:hover {
-    fill: var(--color-primary-light);
-    background-color: var(--color-primary-dark);
-}
-
-.carousel-button.next {
+    &.next {
     transform: rotate(180deg);
+    }
+
+    &:hover {
+        fill: var(--color-primary-light);
+        background-color: var(--color-primary-dark);
+    }
 }
+
+
+
