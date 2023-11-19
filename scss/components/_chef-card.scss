@@ -35,13 +35,15 @@
     &__text {
         font-size: 14px;
         margin-bottom: 24px;
-        
-        &:last-child {
-        margin-bottom: 0;
-
+       
         @media screen and (min-width: $bp-tablet) {
                 font-size: 18px;
             }
+            
+        &:last-child {
+        margin-bottom: 0;
+
+        
     }
 }
     }

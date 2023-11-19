@@ -1,5 +1,6 @@
 .mobile-menu{
     position: fixed;
+    // z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
@@ -16,5 +17,12 @@
         position: absolute;
         top: 16px;
         right: 24px;
+        background-color: transparent;
+            border: none;
+            width: 32px;
+            height: 32px;
+            padding: 0;
     }
+
+   
 }
